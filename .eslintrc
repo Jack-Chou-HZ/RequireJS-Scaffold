@@ -9,6 +9,7 @@
       "browser": true
   },
   "globals": { // Tell the eslint these are the global variables
+      "require": true,
       "requirejs": true,
       "define": true
   }
