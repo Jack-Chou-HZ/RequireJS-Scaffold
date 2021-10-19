@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "transf": "babel ./src{,**}/*.js -d ./ --relative",
-    "lint": "eslint ./src{,**}/*.js --fix"
+    "lint": "eslint ./src{,**}/*.js --fix",
+    "serve": "http-server ./src"
   },
   "dependencies": {
     "requirejs": "^2.3.6"
