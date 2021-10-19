@@ -1,6 +1,9 @@
 {
   "extends": [
-    "standard"
+    
+  ],
+  "plugins": [
+    "requirejs"
   ],
   "env": { //   Tell eslint that the project is running in the browser env, and
            // is using AMD (Asynchronous Module Definition) module format where
@@ -9,6 +12,7 @@
       "browser": true
   },
   "globals": { // Tell the eslint these are the global variables
+      "require": true,
       "requirejs": true,
       "define": true
   }

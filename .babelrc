@@ -1,4 +1,4 @@
 {
   "presets": ["@babel/preset-env"],
-  "ignore": ["node_modules", "release", "./src/libs", "./src/assets", "./src/styles", ".*"]
+  "ignore": ["./src/libs", "./src/assets", "./src/styles", ".*"]
 }
