@@ -7,7 +7,8 @@
   "author": "Jack-Chou-HZ <better.product.go@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "lint": "eslint ./src{,/**}/*.js --fix"
+    "transf": "babel ./src{,**}/*.js -d ./ --relative",
+    "lint": "eslint ./src{,**}/*.js --fix"
   },
   "dependencies": {
     "requirejs": "^2.3.6"
@@ -17,11 +18,7 @@
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
     "eslint": "^7.32.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-export": "^0.1.2",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-requirejs": "^4.0.1",
     "http-server": "^13.0.2"
   }
 }

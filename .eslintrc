@@ -1,6 +1,9 @@
 {
   "extends": [
-    "standard"
+    
+  ],
+  "plugins": [
+    "requirejs"
   ],
   "env": { //   Tell eslint that the project is running in the browser env, and
            // is using AMD (Asynchronous Module Definition) module format where
