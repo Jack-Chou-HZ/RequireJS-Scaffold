@@ -6,8 +6,8 @@
   "repository": "git@github.com:Jack-Chou-HZ/RequireJS-Scaffold.git",
   "author": "Jack-Chou-HZ <better.product.go@gmail.com>",
   "license": "MIT",
-  "scripts": {    
-    "lint": "eslint ./src{,/**}/*.js --fix"    
+  "scripts": {
+    "lint": "eslint ./src{,/**}/*.js --fix"
   },
   "dependencies": {
     "requirejs": "^2.3.6"
@@ -21,6 +21,7 @@
     "eslint-plugin-export": "^0.1.2",
     "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.1.0"
+    "eslint-plugin-promise": "^5.1.0",
+    "http-server": "^13.0.2"
   }
 }
