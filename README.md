@@ -9,7 +9,8 @@
 4. RequireJS-with-ReactJS<br>Use require.js and r.js to work with ReactJS ecosystem.
 
 # P.S.
-  Since requirejs does not depend on NodeJS, there is no need of npm, yarn,<br>
+  Since requirejs **does not** depend on NodeJS, there is no need of npm, yarn,<br>
 package.json and so on... In fact, requirejs exists before them.
   So in this scaffold the NodeJS facilities are only for eslint, babel and<br>
-http-server, which are all devDependencies, and there are no (NodeJS)dependencies.
+http-server, which are all devDependencies, and there are no <br>
+(NodeJS)dependencies.
