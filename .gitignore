@@ -9,6 +9,6 @@
 !/.yarn/cache
 #/.pnp.*
 
-*.js
-./src/main.js
-./src/components/**/*.js
+# ignore babel generated js files
+src/main.js
+src/components/**/*.js
