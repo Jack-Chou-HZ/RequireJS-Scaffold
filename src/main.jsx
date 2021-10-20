@@ -7,8 +7,9 @@ requirejs.config({
     configs: '../configs'
   }
 });
-requirejs(['react', 'react-dom', 'components/App/App.js'], function (React, ReactDOM, App) {
+requirejs(['react', 'react-dom', 'components/App/App'], function (React, ReactDOM, App) {
   const appElm = document.getElementById('app');
 
+  console.log(App)
   ReactDOM.render(<App />, appElm);
 });

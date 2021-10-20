@@ -9,6 +9,7 @@
 !/.yarn/cache
 #/.pnp.*
 
-# ignore babel generated js files
+# Ignore babel generated js files.
+# Path starts with src instead of ./src
 src/main.js
 src/components/**/*.js

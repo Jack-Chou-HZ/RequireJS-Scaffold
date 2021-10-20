@@ -6,13 +6,14 @@ define([
 'react-router-dom', 
 'components/About/About', 
 'components/Profile/Profile', 
-'components/Home/Home'], function (React, ReactDOM, ReactRouterDOM, About, Home) {
+'components/Home/Home'], function (React, ReactDOM, ReactRouterDOM, About, Profile, Home) {
   const {
-    BrowserRouter = Router,
+    // BrowserRouter = Router,
+    BrowserRouter,
     Switch,
     Route,
     Link
-  } = ReactRouterDOM; 
+  } = ReactRouterDOM;
 
   class App extends React.Component {
     constructor(props) {
@@ -20,7 +21,22 @@ define([
       this.state = {}; 
     }
     render() {
-      return (<p>The App Component</p>) 
+      return (<BrowserRouter>
+        <div>
+          <nav>
+            <ul>
+              <li><Link to='/about'>About</Link></li>
+              <li><Link to='/profile'>Profile</Link></li>
+              <li><Link to='/'>Home</Link></li>
+            </ul>
+          </nav>
+          <Switch>
+            <Route path='/about'><About /></Route>
+            <Route path='/profile'><Profile /></Route>
+            <Route path='/'><Home /></Route>
+          </Switch>
+        </div>
+      </BrowserRouter>) 
     }  
   }
 
