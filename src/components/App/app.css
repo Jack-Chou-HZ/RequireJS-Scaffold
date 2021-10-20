@@ -1,0 +1,105 @@
+@import './antd.css';
+
+.app {
+  margin: 0.5em !important;
+}
+
+.header {
+  padding: 0.5em 0;
+  background-color: #FFF !important;
+}
+
+.header>.sub-title {
+  display: flex;
+}
+
+.header>.sub-title>.left-column {
+  width: 90%;
+}
+
+.header>.sub-title.right-column {
+  width: 10%;
+  text-align: right;
+  margin-right: 2em;
+}
+
+.header>.clock {
+  text-align: right;
+  margin-right: 1em;
+}
+
+.header>.greetings {
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+}
+
+.header>.sub-title>.left-column>.quote {
+  font-size:  1em;
+  font-style: italic;
+  margin: 1em;
+}
+
+.monitor {
+  margin: 5px 0px 5px 0px;
+  background-color: #FFF !important;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.monitor>label {
+  text-align: center;
+  font-size: 1em;
+  font-family: 'Courier New';
+  font-style: italic;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.monitor>.logo {
+  text-align: center;
+  font-size: 2.5em;
+  color:  coral;
+  font-family: 'Courier New';
+  font-style: italic;
+  font-weight: bold;
+  display: block;
+  padding: 1em 0;
+}
+
+.profile {
+  display: inline-block;
+  text-align: center;
+  border-radius: .3em;
+  border-width: 0.2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+  padding: 0 1em;
+}
+
+.profile .question {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  display: flex;
+}
+
+.question>.ask {
+  width: 60%;
+  padding-right: 1em;
+  text-align: right;
+}
+.question>.answer {
+  /* width: 40%;
+  padding-left: 1em;*/
+}
+
+.profile .button>input {
+  margin: 1em .5em;
+  width: 6em;
+}
+
+
+
+
+
+

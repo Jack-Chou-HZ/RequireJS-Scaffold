@@ -8,7 +8,9 @@ requirejs.config({
   }
 });
 requirejs(['react', 'react-dom', 'components/App/App.js'], function (React, ReactDOM, App) {
-  var appElm = document.getElementById('app');
-  console.log(App);
-  ReactDOM.render( /*#__PURE__*/React.createElement(App, null), appElm);
+  const appElm = document.getElementById('app');
+
+  console.log(App)
+
+  ReactDOM.render(<App />, appElm);
 });

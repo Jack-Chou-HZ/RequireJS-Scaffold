@@ -2059,6 +2059,10 @@ let requirejs, require, define;
      * name.
      */
   define = function (name, deps, callback) {
+    console.log('I\'m loading these deps:')
+    console.log(name + ':')
+    console.log(deps)
+    
     let node, context
 
     // Allow for anonymous modules
