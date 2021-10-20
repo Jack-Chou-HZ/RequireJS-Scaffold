@@ -9,5 +9,6 @@
 !/.yarn/cache
 #/.pnp.*
 
+*.js
 ./src/main.js
 ./src/components/**/*.js
