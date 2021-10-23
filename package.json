@@ -1,7 +1,7 @@
 {
   "name": "RquireJS-Scaffold",
   "packageManager": "yarn@3.0.2",
-  "description": "The MyEnergy web app.",
+  "description": "The MyEnergy UI",
   "main": "index.js",
   "repository": "git@github.com:Jack-Chou-HZ/RequireJS-Scaffold.git",
   "author": "Jack-Chou-HZ <better.product.go@gmail.com>",
@@ -9,7 +9,7 @@
   "scripts": {
     "transf": "babel ./src{,**}/*.jsx -d ./ --relative -w",
     "lint": "eslint ./src{,**}/*.js --fix --quiet",
-    "serve": "http-server ./src",
+    "serve": "bash -c 'http-server --proxy http://localhost:8080? ./src'",
     "clean": "rm ./src/components/**/*.js",
     "make-dev": "",
     "make-prod": "",

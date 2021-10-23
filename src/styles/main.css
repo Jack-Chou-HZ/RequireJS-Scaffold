@@ -1,103 +1,102 @@
 @import './antd.css';
 
 .app {
-  margin: 0.5em !important;
+  margin: 1rem !important;
+  font-size: 1rem;
 }
 
 .header {
-  padding: 0.5em 0;
-  background-color: #FFF !important;
+  padding: 0.5rem 0;
 }
 
-.header>.sub-title {
-  display: flex;
+.footer-logo {
+  width:  1rem;
 }
 
-.header>.sub-title>.left-column {
-  width: 90%;
+.float-right {
+  float: right;
 }
 
-.header>.sub-title.right-column {
-  width: 10%;
-  text-align: right;
-  margin-right: 2em;
+.about {
+  padding: 2.5rem;
+  margin: auto;
+  width: 1000px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
-.header>.clock {
-  text-align: right;
-  margin-right: 1em;
-}
-
-.header>.greetings {
+.about h1 {
+  text-align: center;
   font-size: 2em;
-  text-align: center;
-  font-weight: bold;
-  width: 100%;
 }
 
-.header>.sub-title>.left-column>.quote {
-  font-size:  1em;
-  font-style: italic;
-  margin: 1em;
+.about p {
+  font-size: 1.5rem;
 }
 
-.monitor {
-  margin: 5px 0px 5px 0px;
-  background-color: #FFF !important;
-  font-size: 1.5em;
-  text-align: center;
+.body {
+  margin: 0 10rem 5rem 10rem;
+  border-radius: .3rem;
+  border-width: 0.2rem;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);*/
 }
 
-.monitor>label {
+.body>.logo {
   text-align: center;
-  font-size: 1em;
-  font-family: 'Courier New';
-  font-style: italic;
-  display: block;
-  margin-bottom: 0.5em;
-}
-
-.monitor>.logo {
-  text-align: center;
-  font-size: 2.5em;
+  font-size: 4rem;
   color:  coral;
   font-family: 'Courier New';
   font-style: italic;
   font-weight: bold;
   display: block;
-  padding: 1em 0;
+  padding: 1rem 0;
+}
+
+.monitor {
+  margin: 5px 0px 5px 0px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.monitor>label {
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+  display: block;
+  margin-bottom: 0.5rem;
 }
 
 .profile {
   display: inline-block;
   text-align: center;
-  border-radius: .3em;
-  border-width: 0.2em;
+  border-radius: .3rem;
+  border-width: 0.2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
-  padding: 0 1em;
+  padding: 0 1rem;
 }
 
 .profile .question {
-  font-size: 1.5em;
-  margin-bottom: 0.5em;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
   display: flex;
 }
 
 .question>.ask {
-  width: 60%;
-  padding-right: 1em;
+  width: 50%;
+  padding-right: 1rem;
   text-align: right;
 }
 .question>.answer {
-  /* width: 40%;
-  padding-left: 1em;*/
+  display: inline-flex;
 }
 
 .profile .button>input {
-  margin: 1em .5em;
-  width: 6em;
+  margin: 1rem .5rem;
+  width: 10rem;
 }
 
+.profile .answer-comment  {
+  margin-left: 1rem;
+}
 
 
 

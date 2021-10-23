@@ -1,8 +1,5 @@
-// @babel/preset-env enables babel to transform the latest ECMAScript syntax
-// @babel/preset-react enables babel to transform the ReactJS syntax (*.jsx)
-
 {
-  "plugins": [], // first to last
-  "presets": ["@babel/preset-react", "@babel/preset-env"], // last to first
+  "plugins": [],
+  "presets": ["@babel/preset-react", "@babel/preset-env"],
   "ignore": ["./src/libs", "./src/assets", "./src/styles", ".*"]
 }
