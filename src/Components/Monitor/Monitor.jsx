@@ -9,8 +9,9 @@
 
 define(['react',
   'react-dom',
+  'components/Greetings/Greetings',
   'components/Profile/Profile'],
-  function (React, ReactDOM, Profile) {
+  function (React, ReactDOM, Greetings, Profile) {
     class Monitor extends React.Component {
       constructor (props) {
         super(props)
@@ -46,6 +47,7 @@ define(['react',
         const { defaultQuestions } = this.state
         return (
           <div className='monitor'>
+            <Greetings />
             <Profile defaultQuestions={defaultQuestions} />
           </div>
         )

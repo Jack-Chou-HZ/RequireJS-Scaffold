@@ -91,6 +91,7 @@ define([
                             value={this.state.answers[item.seq] || ''}
                             onChange={this.handleChange}
                           />
+                          <label>great, with any comments?</label>
                           <input type="text"
                             name='comments'
                             className='answer-comment'
@@ -103,7 +104,7 @@ define([
                 </Tabs>
                 <div className='button'>
                   <input type="submit" value="Save" />
-                  <input type="button" value="Never mind" onClick={this.handleSubmit} />
+                  <input type="button" value="Cancel" onClick={this.handleSubmit} />
                 </div>
              </form>)
         } else {

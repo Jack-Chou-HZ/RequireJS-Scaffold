@@ -5,10 +5,6 @@
   font-size: 1rem;
 }
 
-.header {
-  padding: 0.5rem 0;
-}
-
 .footer-logo {
   width:  1rem;
 }
@@ -18,10 +14,10 @@
 }
 
 .about {
-  padding: 2.5rem;
+  padding: 2rem;
   margin: auto;
   width: 1000px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .about h1 {
@@ -30,14 +26,11 @@
 }
 
 .about p {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
 .body {
-  margin: 0 10rem 5rem 10rem;
-  border-radius: .3rem;
-  border-width: 0.2rem;
-  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);*/
+  margin-bottom: 2rem;
 }
 
 .body>.logo {
@@ -57,6 +50,11 @@
   text-align: center;
 }
 
+.monitor-askings {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
 .monitor>label {
   text-align: center;
   font-size: 1rem;
@@ -68,30 +66,35 @@
 .profile {
   display: inline-block;
   text-align: center;
+  min-width: 1000px;
   border-radius: .3rem;
   border-width: 0.2rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.19);
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 25px 0 rgba(0, 0, 0, 0.19);*/
   padding: 0 1rem;
 }
 
 .profile .question {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: 0.5rem;
   display: flex;
 }
 
 .question>.ask {
-  width: 50%;
+  min-width: 30%;
   padding-right: 1rem;
   text-align: right;
 }
 .question>.answer {
   display: inline-flex;
 }
+.answer>input {
+  margin-right: 2rem;
+}
 
 .profile .button>input {
   margin: 1rem .5rem;
-  width: 10rem;
+  width: 8rem;
 }
 
 .profile .answer-comment  {

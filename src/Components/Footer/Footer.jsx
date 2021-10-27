@@ -13,7 +13,7 @@ define([
       render() {
         return (
           <div className='float-right'>
-            <p><i>MyEnergy</i><img src='../assets/favi.png' className='footer-logo' /> is a free product, it honors your privacy.</p>
+            <p><b><i>MyEnergy</i></b><img src='../assets/favi.png' className='footer-logo' /> is a free product, it honors your privacy.</p>
           </div>
           )
       }

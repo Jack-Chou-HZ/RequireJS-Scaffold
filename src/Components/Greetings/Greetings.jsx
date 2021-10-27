@@ -13,7 +13,7 @@ define(['react',
     class Greetings extends React.Component {
       constructor (props) {
         super(props)
-        this.state = { date: new Date(), quote: '"' + 'Business is not a job but a mindset.' + '"' }
+        this.state = {greetings: props.greetings || `Hi, how are you doing today?`}
       }
 
       componentDidMount () {
@@ -24,9 +24,12 @@ define(['react',
 
       render () {
         return (
-          <div className='header'>
-            <div className='greetings'>
-              <label>Hi, how are you doing today?</label>
+          <div className='monitor-welcome'>
+            <div className='monitor-greetings'>
+              <label>{this.state.greetings}</label>
+            </div>
+            <div className='monitor-askings'>
+              <label>Please tell me how you feel, because that's important to me.</label>
             </div>
           </div>
         )

@@ -1,10 +1,10 @@
 # RequireJS-Scaffold
-  A scaffold for creating **web application User Interface** with RequireJS<br>
+    A scaffold for creating **web application User Interface** with RequireJS<br>
   as the JavaScript module manager.
   The JavaScript host environment here is: **web browser**(which is also the<br>
   default target of the RequireJS).<br>
-  &nbsp The purpose of this scaffold, is to experiment writing web applications<br>
-  front end without Webpack, Gulp or any other buldle tools.
+    The purpose of this scaffold, is to experiment writing web applications<br>
+  UI **without npm as the module manager nor Webpack, Gulp or any other as buldle tools.**
 
 # Branches
 1. master <br/>No specific purpose. Not even merge with any other branches.
@@ -15,6 +15,7 @@
 # P.S.
   Since requirejs **does not** depend on NodeJS, there is no need of npm, yarn,<br>
 package.json and so on... In fact, requirejs exists before them.
-  So in this scaffold the NodeJS facilities are only for eslint, babel and<br>
-http-server, which are all devDependencies, and there are no <br>
+  So in this scaffold the NodeJS artifacts(e.g., package.json) are only for eslint,<br>
+babel and http-server, which are all devDependencies, and there are no<br>
 (NodeJS)dependencies.
+
